@@ -71,6 +71,7 @@ a {
 
 .cards {
   display: flex;
+  justify-content: center;
   flex: 1;
   flex-wrap: wrap;
   padding: 32px;
