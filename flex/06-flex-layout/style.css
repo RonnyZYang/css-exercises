@@ -34,14 +34,14 @@ body {
 
 ul {
   list-style-type: none;
-  padding: 0;
   margin: 0;
   display: flex;
-
+  padding: 8px;
+  gap: 12px;
 }
 
 li {
-  padding: 10px;
+  margin: 2px;
 }
 
 a {
@@ -52,6 +52,7 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 6px;
 }
 
 .content {
@@ -61,8 +62,14 @@ a {
   justify-content: center;
 }
 
+button {
+  padding: 8px 16px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 6px;
   background-color: #eeeeee;
 }
+
