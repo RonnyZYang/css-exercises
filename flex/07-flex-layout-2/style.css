@@ -78,8 +78,9 @@ a {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   width: 250px;
-  height: 240px;
   padding: 16px;
 }
 
